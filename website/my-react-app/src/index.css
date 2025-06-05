@@ -1,0 +1,81 @@
+.container {
+  border: 1px solid rgb(178, 177, 177) ;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.136);
+  padding: 20px;
+  margin: 10px;
+  max-width:250px ;
+  text-align:center ;
+  display: inline-block;
+}
+
+.container .profile {
+ max-width: 60%;
+ height: auto;
+ margin-bottom: 10px;
+ border-radius: 50% ; 
+}
+
+.container .username {
+  font-family: arial, sans-serif;
+  margin: 0;
+  color: hsl(0, 1%, 15%);
+}
+
+.container .description {
+  font-family: arial, sans-serif;
+  color: hsl(0, 0%, 30%);
+}
+
+.student{
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid  hsla(0, 0%, 50%, 0.8);
+  margin-bottom: 10px ;
+}
+
+.student p{
+  margin: 0px;
+}
+
+.welcomeMessage {
+  background-color: rgba(35, 186, 35, 0.917);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  margin: 0px;
+}
+
+.failurePrompt {
+ background-color: red;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  margin: 0px;
+}
+
+.category{
+  background-color: rgb(6, 22, 80);
+  color: white;
+  display: inline-block;
+  border-radius: 5px;
+ font-size: 1.5em;
+ padding: 10px 10px;
+ margin-bottom:-8px ;
+}
+
+.listItems li {
+  font-size: 2em;  
+  color: rgba(53, 48, 48, 0.913);
+}
+
+.listItems li:hover{
+ color: rgb(25, 23, 23);
+ cursor: pointer;
+} 
+
